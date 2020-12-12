@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_advantage_tests",
+  "info": {
+    "name": "test",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "ff": {
+      "type": "string"
+    }
+  }
+}

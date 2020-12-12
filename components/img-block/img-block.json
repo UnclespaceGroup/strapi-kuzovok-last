@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_img_block_img_blocks",
+  "info": {
+    "name": "imgBlock",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

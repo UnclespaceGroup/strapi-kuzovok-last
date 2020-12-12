@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "papers",
+  "info": {
+    "name": "paper",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "actor": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "img-block.img-block",
+        "text-block.text-block"
+      ]
+    }
+  }
+}

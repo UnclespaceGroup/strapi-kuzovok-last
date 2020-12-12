@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_pages",
+  "info": {
+    "name": "MainPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "advantages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "advantage.advantages"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.cards"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.meta"
+    }
+  }
+}

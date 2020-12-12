@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reviews-page",
+      "handler": "reviews-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reviews-page",
+      "handler": "reviews-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reviews-page",
+      "handler": "reviews-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

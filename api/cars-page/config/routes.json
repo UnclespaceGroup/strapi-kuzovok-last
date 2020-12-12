@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cars-page",
+      "handler": "cars-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cars-page",
+      "handler": "cars-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cars-page",
+      "handler": "cars-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
